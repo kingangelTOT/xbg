@@ -1,0 +1,15 @@
+https://github.com/kingangelTOT/xbg.git
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kingangelTOT/xbg.git
+git push -u origin master
+
+
+git remote add origin https://github.com/kingangelTOT/xbg.git
+git push -u origin master
+
+错误：error: RPC failed; result=28, HTTP code = 0iB | 63 KiB/s
+$ git config http.postBuffer 209715200
